@@ -4,7 +4,6 @@ import torch
 from PIL import Image
 import os
 from werkzeug.utils import secure_filename  # Import secure_filename to prevent filename attacks
-import os
 
 uploads_dir = os.path.join(os.path.dirname(__file__), 'uploads')
 os.makedirs(uploads_dir, exist_ok=True)

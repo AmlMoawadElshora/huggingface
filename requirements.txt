@@ -1,0 +1,7 @@
+gunicorn
+flask
+transformers
+torch
+Pillow
+werkzeug
+utils
